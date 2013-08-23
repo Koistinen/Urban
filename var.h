@@ -1,0 +1,9 @@
+unsigned int at,to;
+unsigned char t[TSIZE];
+unsigned int high,low,point,apoint,k;
+unsigned int hk,hv,hks,hvs;
+unsigned int zr,or;
+struct HENTRY h[HKSIZE];
+struct ZENTRY zt[TSIZE][MAXCOUNT][MAXCOUNT];
+struct HDENTRY hd[TSIZE][256];
+unsigned int cut,cin;
