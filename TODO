@@ -1,0 +1,4 @@
+FIX BUG
+10+ years ago I got a report of a bug:
+When you compress a large file with all zeroes (NUL) it will not work correctly.
+60k zeroes is more than enough.
