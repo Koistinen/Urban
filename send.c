@@ -35,12 +35,12 @@ int c;
       hks=HKSIZE;
     }
   }else {
+    ++zt[d][zr][or].z;
     ++zt[d][zr][or].s;
     if(zt[d][zr][or].s>60000) {
       zt[d][zr][or].s>>=1;
       zt[d][zr][or].z>>=1;
     }
-    ++zt[d][zr][or].z;
 #ifdef UN
     send_bit(0);
 #endif
